@@ -1,0 +1,17 @@
+{
+	"files.associations": {
+		"*.sql": "sql",
+		"*.md": "markdown",
+		"cbor.h": "c",
+		"tinycbor-version.h": "c",
+		"stdint.h": "c",
+		"stdlib.h": "c",
+		"dynruntime.h": "c",
+		"prod.h": "c",
+		"nativeglue.h": "c",
+		"objfun.h": "c",
+		"objtype.h": "c",
+		"objstr.h": "c",
+		"typeinfo": "c"
+	}
+}
