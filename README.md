@@ -35,4 +35,4 @@ ARCH=armv6 make
 * https://www.geeksforgeeks.org/write-memcpy/
 
 
-This is built on top of [tinycbor v0.6, the original source code was modified to remove large switch statements to `undefined reference to __gnu_thumb1_case_uqi` when compiling for arm.
+This is built on top of [tinycbor v0.6](https://github.com/intel/tinycbor/tree/v0.6.0), the original source code was modified to remove large switch statements to `undefined reference to __gnu_thumb1_case_uqi` when compiling for arm.
