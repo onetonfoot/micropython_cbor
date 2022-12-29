@@ -1,6 +1,6 @@
 # Micropython CBOR
 
-A native c module for CBOR encoding
+A native C module for CBOR encoding
 
 ```py
 import ucbor
@@ -16,13 +16,15 @@ ucbor.loads(bs)
 
 # Building
 
-```
+```sh
 pip install pyelftools
 git clone https://github.com/micropython/micropython.git /opt/micropython
 ARCH=armv6 make
 ```
 
 # References
+
+Various references used during development:
 
 * https://github.com/micropython/micropython/issues/5641
 * https://github.com/jeremyherbert/micropython/blob/3a41f2e935fb33f070b77ad77fc3bd2488d4d922/examples/natmod/ucbor/ucbor.c
